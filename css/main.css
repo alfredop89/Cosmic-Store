@@ -327,14 +327,6 @@ header::after {
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.438);
 }
 
-.product-image-zoom {
-  position: fixed;
-  height: 500px;
-  width: 500px;
-  background-color: black;
-  z-index: 200;
-}
-
 .footer {
   width: 100%;
   color: white;
@@ -451,7 +443,7 @@ header::after {
   padding: 15px;
 }
 .shopping-cart .total-cart-price p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .shopping-cart .total-cart-price i {
   font-size: 35px;
