@@ -25,6 +25,7 @@
                     margin: 0 auto;
                     padding: 20px;
                     margin-bottom: 20px;
+                    cursor: zoom-in;
                 }
             }
             p{
@@ -62,4 +63,12 @@
             box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.438);
         }
     }
+}
+.product-image-zoom{
+    position: fixed;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    z-index: 200;
+
 }

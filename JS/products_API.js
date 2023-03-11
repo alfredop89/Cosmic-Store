@@ -41,6 +41,10 @@ function callApi(){
                 `
                 productSection.appendChild(div)
 
+                // IMAGEN DEL PROODUCTO
+
+                
+
                 // BOTON AGREGAR
 
                 let agregar = document.getElementById(prod.id)

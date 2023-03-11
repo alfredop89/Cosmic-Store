@@ -24,8 +24,8 @@
     }
     h2{
         text-align: center;
-        font-size: 25px;
-        margin: 30px 0;
+        font-size: 20px;
+        margin: 20px 0;
     }
     .total-cart-price{
         width: 100%;
@@ -146,6 +146,7 @@
     .shopping-cart{
         width: 100%;
         height: 100vh;
+        padding: 0;
         .total-cart-price{
             i{
                 font-size: 30px;
@@ -153,8 +154,10 @@
         }
         .cart-container{
             height: 75%;
+            padding: none;
             .cart-product{
                 height: auto;
+                width: 100%;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
