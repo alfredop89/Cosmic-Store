@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c1a11ecc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Cosmic Shop</title>
+</head>
+<body>
+
+<!-- ICONS -->
+
+<div id="cartIcon" class="cart-icon">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <div id="cartLenght">
+        <p>0</p>
+    </div>
+</div>
+
+<!-- SHOPPING CART -->
+
+<div id="cartModal" class="shopping-cart">
+    <div id="closeShoppingCart" class="close-button">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="div">
+        <h2>Carrito de compras</h2>
+    </div>
+
+    <div id="cartContainer" class="cart-container">
+        <p></p>
+    </div>
+
+    <div id="totalCartPrice" class="total-cart-price">
+        <div id="trashIcon" class="trash-icon">
+            <i class="fa-solid fa-trash"></i>
+        </div>
+        <div id="totalToPay">
+            <p>Total a pagar: 0 $</p>
+        </div>
+    </div>
+</div>
+<!-- HEADER -->
+
+<header>
+    <nav class="wrapper">
+        <img class="logo" src="./assets/logo.png" alt="">
+        <img class="menu-bar" src="./assets/menu-bar.svg" alt="">
+    </nav>
+</header>
+
+
+<!-- BANNER -->
+
+<section>
+    <div class="banner">
+        <div id="bannerText" class="banner-text">
+            <h1>PLANEA TUS COMPRAS DE ESTE MES</h1>
+            <h3>en la comodidad desde donde estés</h3>
+            <p>Disfruta de las mejores ofertas en productos con los mejores descuentos en envíos y costos por traslado hasta la dirección que nos indiques</p>
+        </div>
+        <div id="socialIcons" class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION ONE BACKGROUND -->
+
+<div class="section-one">
+    <img src="./assets/logo.png" alt="">
+</div>
+
+<!-- PRODUCTS SECTION -->
+
+<section class="products-section">
+    <div id="productSection" class="wrapper product-container">
+    </div>
+</section>
+
+<!-- SECTION ONE BACKGROUND -->
+
+<div class="section-two">
+    <img src="./assets/logo.png" alt="">
+</div>
+
+
+<!-- FOOTER -->
+
+<section class="footer">
+        <div class="footer-div wrapper">
+            <div class="footer-logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="footer-section">
+                <h3>Tienda</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Siempreviva 356 St. 12080 Holywood, U.S.</p>
+                <p><i class="fa-solid fa-clock"></i>Lunes a Viernes : 8:00 AM - 6:00 PM</p>
+                <p><i class="fa-solid fa-envelope"></i>info@cosmic.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 156-654-8096</p>
+            </div>
+            <div class="footer-section">
+                <h3>Políticas</h3>
+                <p class="footer-links">Términos y condiciones</p>
+                <p class="footer-links">Política de envío</p>
+                <p class="footer-links">Política de reembolso</p>
+                <p class="footer-links">Política de privacidad</p>
+                <p class="footer-links">Cookies</p>
+                <p class="footer-links">F.A.Q.</p>
+            </div>
+        </div>
+        <div class="derechos-reservados">
+            <img src="./assets/mi-logo.svg" alt="">
+            <p>Sitio web realizado por Alfredo Pérez, 2023</p>
+        </div>
+    
+</section>
+
+
+<!-- SCRIPTS -->
+
+<script src="./JS/animaciones.js"></script>
+<script src="./JS/products_API.js"></script>
+<script src="./JS/shoppingCart.js"></script>
+    
+</body>
+</html>
