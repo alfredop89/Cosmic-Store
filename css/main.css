@@ -228,6 +228,7 @@ header::after {
   background-color: rgba(0, 0, 0, 0.692);
   backdrop-filter: blur(4px);
   left: 0;
+  right: 0;
   z-index: 1;
 }
 
@@ -264,6 +265,7 @@ header::after {
   background-color: white;
   overflow: hidden;
   padding: 50px 0;
+  height: auto;
 }
 .products-section .product-container {
   display: flex;
@@ -277,7 +279,7 @@ header::after {
   justify-content: space-between;
   height: 450px;
   width: 320px;
-  margin: 50px;
+  margin: 50px 10px;
   border-radius: 10px;
   border: 2px solid rgba(0, 0, 0, 0.034);
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.171);
@@ -555,7 +557,6 @@ header::after {
   }
   .shopping-cart .cart-container {
     height: 75%;
-    padding: none;
   }
   .shopping-cart .cart-container .cart-product {
     height: auto;
@@ -614,7 +615,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wrapper {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
