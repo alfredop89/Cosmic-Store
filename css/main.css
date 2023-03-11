@@ -194,7 +194,7 @@ header::after {
     font-weight: 200;
   }
   .banner::after {
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(0, 0, 0, 0.685);
   }
 }
 @media screen and (min-width: 768px) {
