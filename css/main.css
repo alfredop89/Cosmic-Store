@@ -282,7 +282,7 @@ header::after {
   margin: 50px 10px;
   border-radius: 10px;
   border: 2px solid rgba(0, 0, 0, 0.034);
-  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.171);
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.363);
   transition: 0.5s;
 }
 .products-section .product-container .product-card .product-image {
@@ -416,7 +416,6 @@ header::after {
   background-color: rgba(0, 0, 0, 0.7803921569);
   backdrop-filter: blur(10px);
   color: white;
-  padding: 15px;
   z-index: 200;
   margin: 0;
   transform: translateX(5000px);
@@ -436,12 +435,26 @@ header::after {
   font-size: 20px;
   margin: 20px 0;
 }
+.shopping-cart .cart-container-button {
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 85%;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background-color: #301A4B;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .shopping-cart .total-cart-price {
+  position: absolute;
   width: 100%;
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  margin: 15px auto;
+  margin: 5px auto;
   padding: 15px;
 }
 .shopping-cart .total-cart-price p {
@@ -453,13 +466,13 @@ header::after {
   cursor: pointer;
 }
 .shopping-cart .cart-container {
-  height: 80%;
+  height: 75%;
   padding: 15px;
   overflow-y: auto;
 }
 .shopping-cart .cart-container .cart-product {
   position: relative;
-  height: 180px;
+  height: 150px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -471,7 +484,7 @@ header::after {
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.137);
 }
 .shopping-cart .cart-container .cart-product img {
-  height: 80px;
+  height: 40px;
   margin: 0 30px 0 10px;
 }
 .shopping-cart .cart-container .cart-product .cart-title-product {
@@ -552,11 +565,14 @@ header::after {
     height: 100vh;
     padding: 0;
   }
+  .shopping-cart .cart-container-button {
+    top: 82%;
+  }
   .shopping-cart .total-cart-price i {
     font-size: 30px;
   }
   .shopping-cart .cart-container {
-    height: 75%;
+    height: 70%;
   }
   .shopping-cart .cart-container .cart-product {
     height: auto;

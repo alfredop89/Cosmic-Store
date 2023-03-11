@@ -4,6 +4,7 @@ let cartLenght = document.querySelector('#cartLenght')
 
 let cartContainer = document.querySelector('#cartContainer')
 let trashIcon = document.getElementById('trashIcon')
+let pagarButton = document.createElement('div')
 
 let shoppingCart = []
 
@@ -64,10 +65,26 @@ function renderCart(){
             cartIconLength()
             cartUpdate()
             renderCart()
+            botonPagar()
             totalPrice()
         }
     })
 
+}
+
+// BOTON PAGAR
+
+function botonPagar(){
+
+    pagarButton.innerHTML = `
+        <button class="cart-container-button">Pagar ahora</button>
+    `
+    if(shoppingCart.length >= 1){
+        cartModal.appendChild(pagarButton)
+        pagarButton.style.opacity = '1'
+    } else if (shoppingCart.length === 0){
+        pagarButton.style.opacity = '0'
+    }
 }
 
 // ELIMINAR PRODUCTO
@@ -86,13 +103,16 @@ function deleteProd(prod) {
 
 function vaciarCarrito(){
     trashIcon.onclick = () => {
-        shoppingCart.length = 0
+        shoppingCart.forEach((prod) => {prod.cantidad = 0})
+        shoppingCart = []
         cartLenght
         cartIconLength()
         cartUpdate()
         renderCart()
+        botonPagar()
         totalPrice()
     }
+    
 }
 vaciarCarrito()
 

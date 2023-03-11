@@ -55,6 +55,7 @@ function callApi(){
                             cartIconLength()
                             cartUpdate()
                             renderCart()
+                            botonPagar()
                             totalPrice()
                         }
 
@@ -65,6 +66,7 @@ function callApi(){
                             cartIconLength()
                             cartUpdate()
                             renderCart()
+                            botonPagar()
                             totalPrice()
                         }else{
                             arr.unshift(prod)
@@ -73,6 +75,7 @@ function callApi(){
                             cartIconLength()
                             cartUpdate()
                             renderCart()
+                            botonPagar()
                             totalPrice()
                         }
                     }
