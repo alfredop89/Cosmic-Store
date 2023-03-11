@@ -13,6 +13,7 @@
     box-shadow: 10px 25px 10px rgba(0, 0, 0, 0.397);
     overflow: hidden;
     .banner-text{
+        position: absolute;
         width: 60%;
         left: 0;
         padding: 20px;
@@ -80,6 +81,7 @@
             background-color: rgba(0, 0, 0, 0);
             left: 0;
             box-shadow: none;
+            top: 2;
             z-index: 10;
             h1{
                 font-size: 35px;
@@ -99,3 +101,4 @@
         width: 40%;
     }
 }
+

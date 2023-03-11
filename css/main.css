@@ -118,6 +118,7 @@ header::after {
   overflow: hidden;
 }
 .banner .banner-text {
+  position: absolute;
   width: 60%;
   left: 0;
   padding: 20px;
@@ -182,6 +183,7 @@ header::after {
     background-color: rgba(0, 0, 0, 0);
     left: 0;
     box-shadow: none;
+    top: 2;
     z-index: 10;
   }
   .banner .banner-text h1 {
@@ -512,10 +514,11 @@ header::after {
   background-color: #301A4B;
   padding: 20px;
   text-align: center;
-  top: 70%;
+  top: 50%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.623);
+  transform: translateX(-100px);
   cursor: pointer;
   transition: 0.5s;
   z-index: 20;
@@ -578,7 +581,7 @@ header::after {
     font-size: 15px;
   }
   .cart-icon {
-    top: 80%;
+    top: 50%;
   }
 }
 * {

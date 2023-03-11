@@ -110,10 +110,11 @@
     background-color: #301A4B;
     padding: 20px;
     text-align: center;
-    top: 70%;
+    top: 50%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.623);
+    transform: translateX(-100px);
     cursor: pointer;
     transition: 0.5s;
     z-index: 20;
@@ -181,7 +182,7 @@
         font-size: 15px;
     }
     .cart-icon{
-        top: 80%;
+        top: 50%;
     }
 
 
