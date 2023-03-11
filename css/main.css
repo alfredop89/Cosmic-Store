@@ -20,6 +20,10 @@ header nav .menu-bar {
   visibility: hidden;
   cursor: pointer;
 }
+header nav .menu-bar:active {
+  display: none;
+  transition: 0.8s;
+}
 header nav .logo {
   height: 50px;
   animation-name: opacityLogo;
@@ -279,9 +283,9 @@ header::after {
   justify-content: space-between;
   height: 450px;
   width: 320px;
-  margin: 50px 10px;
+  margin: 25px 10px;
   border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0.034);
+  border: 2px solid rgba(0, 0, 0, 0.075);
   box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.363);
   transition: 0.5s;
 }
@@ -301,6 +305,8 @@ header::after {
 .products-section .product-container .product-card .product-title {
   font-weight: 700;
   font-size: 18px;
+  padding-top: 15px;
+  border-top: 2px solid rgba(59, 34, 90, 0.0352941176);
 }
 .products-section .product-container .product-card .product-price {
   font-size: 30px;
@@ -446,7 +452,11 @@ header::after {
   background-color: #301A4B;
   border: none;
   border-radius: 10px;
+  transition: 0.5s;
   cursor: pointer;
+}
+.shopping-cart .cart-container-button:hover {
+  background-color: #432a61;
 }
 .shopping-cart .total-cart-price {
   position: absolute;

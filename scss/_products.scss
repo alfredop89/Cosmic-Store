@@ -14,9 +14,9 @@
             justify-content: space-between;
             height: 450px;
             width: 320px;
-            margin: 50px 10px;
+            margin: 25px 10px;
             border-radius: 10px;
-            border: 2px solid rgba(0, 0, 0, 0.034);
+            border: 2px solid rgba(0, 0, 0, 0.075);
             box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.363);
             transition: 0.5s;
             .product-image{
@@ -35,6 +35,8 @@
             .product-title{
                 font-weight: 700;
                 font-size: 18px;
+                padding-top: 15px;
+                border-top: 2px solid #3b225a09;
             }
             .product-price{
                 font-size: 30px;

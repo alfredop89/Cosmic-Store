@@ -18,6 +18,10 @@ header{
             visibility: hidden;
             cursor: pointer;
         }
+        .menu-bar:active{
+            display: none;
+            transition: 0.8s;
+        }
         .logo{
             height: 50px;
             animation-name: opacityLogo;

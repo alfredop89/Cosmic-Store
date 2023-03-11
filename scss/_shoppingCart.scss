@@ -37,7 +37,11 @@
         background-color: #301A4B;
         border: none;
         border-radius: 10px;
+        transition: 0.5s;
         cursor: pointer;
+    }
+    .cart-container-button:hover{
+        background-color: #432a61;
     }
     .total-cart-price{
         position: absolute;
