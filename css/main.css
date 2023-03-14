@@ -338,7 +338,7 @@ header::after {
 .footer {
   width: 100%;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 .footer .footer-div {
   position: relative;
@@ -394,12 +394,12 @@ header::after {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px 0;
+  margin: 40px auto;
   font-size: 13px;
 }
 .footer .derechos-reservados img {
   height: 25px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 576px) {
@@ -415,15 +415,18 @@ header::after {
 .shopping-cart {
   position: fixed;
   width: 45%;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7803921569);
+  bottom: 0;
+  background-color: rgba(67, 42, 97, 0.9254901961);
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.815);
   backdrop-filter: blur(10px);
+  border-radius: 10px;
   color: white;
   z-index: 200;
-  margin: 0;
+  margin: 10px 10px;
   transform: translateX(5000px);
   transition: 0.5s;
 }
@@ -443,9 +446,7 @@ header::after {
 }
 .shopping-cart .cart-container-button {
   width: auto;
-  position: absolute;
   right: 0;
-  top: 85%;
   padding: 15px;
   margin: 10px;
   color: white;
@@ -476,7 +477,7 @@ header::after {
   cursor: pointer;
 }
 .shopping-cart .cart-container {
-  height: 75%;
+  height: 60%;
   padding: 15px;
   overflow-y: auto;
 }
@@ -488,10 +489,11 @@ header::after {
   align-items: center;
   background-color: white;
   color: black;
+  border: 4px solid #432a61;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.137);
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.39);
 }
 .shopping-cart .cart-container .cart-product img {
   height: 40px;
@@ -574,6 +576,8 @@ header::after {
     width: 100%;
     height: 100vh;
     padding: 0;
+    margin: 0;
+    border-radius: 0;
   }
   .shopping-cart .cart-container-button {
     top: 82%;
